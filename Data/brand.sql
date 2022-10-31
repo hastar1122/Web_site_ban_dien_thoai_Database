@@ -1,2 +1,2 @@
-insert into brand(ParBrandID,BrandName) values(null,'Xiaomi')
-insert into brand(ParBrandID,BrandName) values(3,'Realme')
+insert into brand(BrandParentID,BrandName) values(null,'Xiaomi')
+insert into brand(BrandParentID,BrandName) values(3,'Realme')
