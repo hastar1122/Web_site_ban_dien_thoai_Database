@@ -207,6 +207,7 @@ CREATE TABLE `order` (
   `OrderDate` datetime DEFAULT NULL COMMENT 'Thời gian đặt',
   `TotalPrice` float DEFAULT NULL COMMENT 'Tổng tiền',
   `OrderStatusID` int DEFAULT NULL COMMENT 'Trạng thái (Khóa ngoại)',
+  `Address` varchar(255) DEFAULT NULL COMMENT 'Địa chỉ giao hàng',
   PRIMARY KEY (`OrderID`),
   KEY `FK_order_EmployeeID` (`EmployeeID`),
   KEY `FK_order_orderstatus_OrderStatusID` (`OrderStatusID`),
